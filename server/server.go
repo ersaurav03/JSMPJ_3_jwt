@@ -6,6 +6,7 @@ import(
 	jwt "github.com/dgrijalva/jwt-go"
 )
 var mySigningKey = []byte("mysupersecretkey")
+
 func HomePage(w http.ResponseWriter, r*http.Request){
 fmt.Fprint(w,"JSMPJ Corporation success")
 }
